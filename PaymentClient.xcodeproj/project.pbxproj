@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1852DE85B1550B8451B69F /* Pods_PaymentClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05305CE086836B1D4D801DD /* Pods_PaymentClientTests.framework */; };
+		DD773DC78E21FB89FF7CE751 /* Pods_PaymentClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF427783C855E10CC099DFD /* Pods_PaymentClient.framework */; };
+		EB8B5002B2385E4974F77EC2 /* Pods_PaymentClient_PaymentClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932B76CB1CCE0BE5957D3D26 /* Pods_PaymentClient_PaymentClientUITests.framework */; };
+		F507F075255120B2009D224B /* PaymentsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F6BB7025481D450009D57C /* PaymentsKit.xcframework */; };
+		F5F6BB3D25481D2F0009D57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB3C25481D2F0009D57C /* AppDelegate.swift */; };
+		F5F6BB3F25481D2F0009D57C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB3E25481D2F0009D57C /* SceneDelegate.swift */; };
+		F5F6BB4125481D2F0009D57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB4025481D2F0009D57C /* ViewController.swift */; };
+		F5F6BB4425481D2F0009D57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F6BB4225481D2F0009D57C /* Main.storyboard */; };
+		F5F6BB4625481D300009D57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F6BB4525481D300009D57C /* Assets.xcassets */; };
+		F5F6BB4925481D300009D57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F6BB4725481D300009D57C /* LaunchScreen.storyboard */; };
+		F5F6BB5425481D300009D57C /* PaymentClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB5325481D300009D57C /* PaymentClientTests.swift */; };
+		F5F6BB5F25481D300009D57C /* PaymentClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6BB5E25481D300009D57C /* PaymentClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F6BB5025481D300009D57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F6BB3125481D2F0009D57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F6BB3825481D2F0009D57C;
+			remoteInfo = PaymentClient;
+		};
+		F5F6BB5B25481D300009D57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F6BB3125481D2F0009D57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F6BB3825481D2F0009D57C;
+			remoteInfo = PaymentClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A448031A18B7E8A9F8DDB51 /* Pods-PaymentClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClientTests.release.xcconfig"; path = "Target Support Files/Pods-PaymentClientTests/Pods-PaymentClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AFB1583AC35579504BE9774 /* Pods-PaymentClient-PaymentClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClient-PaymentClientUITests.debug.xcconfig"; path = "Target Support Files/Pods-PaymentClient-PaymentClientUITests/Pods-PaymentClient-PaymentClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D7E6C31490CFBDC837E2DD0 /* Pods-PaymentClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClient.release.xcconfig"; path = "Target Support Files/Pods-PaymentClient/Pods-PaymentClient.release.xcconfig"; sourceTree = "<group>"; };
+		6C79F5855D2A0C5ECBEBFBAB /* Pods-PaymentClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClientTests.debug.xcconfig"; path = "Target Support Files/Pods-PaymentClientTests/Pods-PaymentClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		932B76CB1CCE0BE5957D3D26 /* Pods_PaymentClient_PaymentClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentClient_PaymentClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF427783C855E10CC099DFD /* Pods_PaymentClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB39E53D72B57155901ADFE /* Pods-PaymentClient-PaymentClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClient-PaymentClientUITests.release.xcconfig"; path = "Target Support Files/Pods-PaymentClient-PaymentClientUITests/Pods-PaymentClient-PaymentClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA870E136809084476E5057E /* Pods-PaymentClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentClient.debug.xcconfig"; path = "Target Support Files/Pods-PaymentClient/Pods-PaymentClient.debug.xcconfig"; sourceTree = "<group>"; };
+		F05305CE086836B1D4D801DD /* Pods_PaymentClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F6BB3925481D2F0009D57C /* PaymentClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F6BB3C25481D2F0009D57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5F6BB3E25481D2F0009D57C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5F6BB4025481D2F0009D57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F6BB4325481D2F0009D57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F6BB4525481D300009D57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F6BB4825481D300009D57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F6BB4A25481D300009D57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F6BB4F25481D300009D57C /* PaymentClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F6BB5325481D300009D57C /* PaymentClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentClientTests.swift; sourceTree = "<group>"; };
+		F5F6BB5525481D300009D57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F6BB5A25481D300009D57C /* PaymentClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F6BB5E25481D300009D57C /* PaymentClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentClientUITests.swift; sourceTree = "<group>"; };
+		F5F6BB6025481D300009D57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F6BB7025481D450009D57C /* PaymentsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PaymentsKit.xcframework; path = ../../PaymentsKit/PaymentsKit/OutputFolder/PaymentsKit.xcframework; sourceTree = "<group>"; };
+		F5F6BB7925481DE30009D57C /* PaymentsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PaymentsKit.xcframework; path = ../../../../../../Desktop/PaymentsKit.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F6BB3625481D2F0009D57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F507F075255120B2009D224B /* PaymentsKit.xcframework in Frameworks */,
+				DD773DC78E21FB89FF7CE751 /* Pods_PaymentClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB4C25481D300009D57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1852DE85B1550B8451B69F /* Pods_PaymentClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB5725481D300009D57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8B5002B2385E4974F77EC2 /* Pods_PaymentClient_PaymentClientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71E27D802127C1EA7A1B111 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA870E136809084476E5057E /* Pods-PaymentClient.debug.xcconfig */,
+				2D7E6C31490CFBDC837E2DD0 /* Pods-PaymentClient.release.xcconfig */,
+				1AFB1583AC35579504BE9774 /* Pods-PaymentClient-PaymentClientUITests.debug.xcconfig */,
+				AFB39E53D72B57155901ADFE /* Pods-PaymentClient-PaymentClientUITests.release.xcconfig */,
+				6C79F5855D2A0C5ECBEBFBAB /* Pods-PaymentClientTests.debug.xcconfig */,
+				1A448031A18B7E8A9F8DDB51 /* Pods-PaymentClientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5F6BB3025481D2F0009D57C = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB3B25481D2F0009D57C /* PaymentClient */,
+				F5F6BB5225481D300009D57C /* PaymentClientTests */,
+				F5F6BB5D25481D300009D57C /* PaymentClientUITests */,
+				F5F6BB3A25481D2F0009D57C /* Products */,
+				F5F6BB6F25481D450009D57C /* Frameworks */,
+				B71E27D802127C1EA7A1B111 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F6BB3A25481D2F0009D57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB3925481D2F0009D57C /* PaymentClient.app */,
+				F5F6BB4F25481D300009D57C /* PaymentClientTests.xctest */,
+				F5F6BB5A25481D300009D57C /* PaymentClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F6BB3B25481D2F0009D57C /* PaymentClient */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB3C25481D2F0009D57C /* AppDelegate.swift */,
+				F5F6BB3E25481D2F0009D57C /* SceneDelegate.swift */,
+				F5F6BB4025481D2F0009D57C /* ViewController.swift */,
+				F5F6BB4225481D2F0009D57C /* Main.storyboard */,
+				F5F6BB4525481D300009D57C /* Assets.xcassets */,
+				F5F6BB4725481D300009D57C /* LaunchScreen.storyboard */,
+				F5F6BB4A25481D300009D57C /* Info.plist */,
+			);
+			path = PaymentClient;
+			sourceTree = "<group>";
+		};
+		F5F6BB5225481D300009D57C /* PaymentClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB5325481D300009D57C /* PaymentClientTests.swift */,
+				F5F6BB5525481D300009D57C /* Info.plist */,
+			);
+			path = PaymentClientTests;
+			sourceTree = "<group>";
+		};
+		F5F6BB5D25481D300009D57C /* PaymentClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB5E25481D300009D57C /* PaymentClientUITests.swift */,
+				F5F6BB6025481D300009D57C /* Info.plist */,
+			);
+			path = PaymentClientUITests;
+			sourceTree = "<group>";
+		};
+		F5F6BB6F25481D450009D57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5F6BB7925481DE30009D57C /* PaymentsKit.xcframework */,
+				F5F6BB7025481D450009D57C /* PaymentsKit.xcframework */,
+				ABF427783C855E10CC099DFD /* Pods_PaymentClient.framework */,
+				932B76CB1CCE0BE5957D3D26 /* Pods_PaymentClient_PaymentClientUITests.framework */,
+				F05305CE086836B1D4D801DD /* Pods_PaymentClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F6BB3825481D2F0009D57C /* PaymentClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F6BB6325481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClient" */;
+			buildPhases = (
+				ABF6818480B7E783F5004D94 /* [CP] Check Pods Manifest.lock */,
+				F5F6BB3525481D2F0009D57C /* Sources */,
+				F5F6BB3625481D2F0009D57C /* Frameworks */,
+				F5F6BB3725481D2F0009D57C /* Resources */,
+				97372905D5B09AB3DC92FF8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentClient;
+			productName = PaymentClient;
+			productReference = F5F6BB3925481D2F0009D57C /* PaymentClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F6BB4E25481D300009D57C /* PaymentClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F6BB6625481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClientTests" */;
+			buildPhases = (
+				105509D58DCD5DEDB7B95CAF /* [CP] Check Pods Manifest.lock */,
+				F5F6BB4B25481D300009D57C /* Sources */,
+				F5F6BB4C25481D300009D57C /* Frameworks */,
+				F5F6BB4D25481D300009D57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F6BB5125481D300009D57C /* PBXTargetDependency */,
+			);
+			name = PaymentClientTests;
+			productName = PaymentClientTests;
+			productReference = F5F6BB4F25481D300009D57C /* PaymentClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F6BB5925481D300009D57C /* PaymentClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F6BB6925481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClientUITests" */;
+			buildPhases = (
+				A4734C22435677CA632108EE /* [CP] Check Pods Manifest.lock */,
+				F5F6BB5625481D300009D57C /* Sources */,
+				F5F6BB5725481D300009D57C /* Frameworks */,
+				F5F6BB5825481D300009D57C /* Resources */,
+				3DF72F35528A6B3CEE189F87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F6BB5C25481D300009D57C /* PBXTargetDependency */,
+			);
+			name = PaymentClientUITests;
+			productName = PaymentClientUITests;
+			productReference = F5F6BB5A25481D300009D57C /* PaymentClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F6BB3125481D2F0009D57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F5F6BB3825481D2F0009D57C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F5F6BB4E25481D300009D57C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F5F6BB3825481D2F0009D57C;
+					};
+					F5F6BB5925481D300009D57C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F5F6BB3825481D2F0009D57C;
+					};
+				};
+			};
+			buildConfigurationList = F5F6BB3425481D2F0009D57C /* Build configuration list for PBXProject "PaymentClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F6BB3025481D2F0009D57C;
+			productRefGroup = F5F6BB3A25481D2F0009D57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F6BB3825481D2F0009D57C /* PaymentClient */,
+				F5F6BB4E25481D300009D57C /* PaymentClientTests */,
+				F5F6BB5925481D300009D57C /* PaymentClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F6BB3725481D2F0009D57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6BB4925481D300009D57C /* LaunchScreen.storyboard in Resources */,
+				F5F6BB4625481D300009D57C /* Assets.xcassets in Resources */,
+				F5F6BB4425481D2F0009D57C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB4D25481D300009D57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB5825481D300009D57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		105509D58DCD5DEDB7B95CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF72F35528A6B3CEE189F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentClient-PaymentClientUITests/Pods-PaymentClient-PaymentClientUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentClient-PaymentClientUITests/Pods-PaymentClient-PaymentClientUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymentClient-PaymentClientUITests/Pods-PaymentClient-PaymentClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97372905D5B09AB3DC92FF8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentClient/Pods-PaymentClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentClient/Pods-PaymentClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymentClient/Pods-PaymentClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4734C22435677CA632108EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentClient-PaymentClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF6818480B7E783F5004D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F6BB3525481D2F0009D57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6BB4125481D2F0009D57C /* ViewController.swift in Sources */,
+				F5F6BB3D25481D2F0009D57C /* AppDelegate.swift in Sources */,
+				F5F6BB3F25481D2F0009D57C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB4B25481D300009D57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6BB5425481D300009D57C /* PaymentClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F6BB5625481D300009D57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F6BB5F25481D300009D57C /* PaymentClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F6BB5125481D300009D57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F6BB3825481D2F0009D57C /* PaymentClient */;
+			targetProxy = F5F6BB5025481D300009D57C /* PBXContainerItemProxy */;
+		};
+		F5F6BB5C25481D300009D57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F6BB3825481D2F0009D57C /* PaymentClient */;
+			targetProxy = F5F6BB5B25481D300009D57C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F6BB4225481D2F0009D57C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F6BB4325481D2F0009D57C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F6BB4725481D300009D57C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F6BB4825481D300009D57C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F6BB6125481D300009D57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5F6BB6225481D300009D57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F6BB6425481D300009D57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA870E136809084476E5057E /* Pods-PaymentClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F6BB6525481D300009D57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7E6C31490CFBDC837E2DD0 /* Pods-PaymentClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5F6BB6725481D300009D57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C79F5855D2A0C5ECBEBFBAB /* Pods-PaymentClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentClient.app/PaymentClient";
+			};
+			name = Debug;
+		};
+		F5F6BB6825481D300009D57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A448031A18B7E8A9F8DDB51 /* Pods-PaymentClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentClient.app/PaymentClient";
+			};
+			name = Release;
+		};
+		F5F6BB6A25481D300009D57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFB1583AC35579504BE9774 /* Pods-PaymentClient-PaymentClientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentClient;
+			};
+			name = Debug;
+		};
+		F5F6BB6B25481D300009D57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB39E53D72B57155901ADFE /* Pods-PaymentClient-PaymentClientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E32XBQK4Q5;
+				INFOPLIST_FILE = PaymentClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cko.com.PaymentClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F6BB3425481D2F0009D57C /* Build configuration list for PBXProject "PaymentClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F6BB6125481D300009D57C /* Debug */,
+				F5F6BB6225481D300009D57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F6BB6325481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F6BB6425481D300009D57C /* Debug */,
+				F5F6BB6525481D300009D57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F6BB6625481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F6BB6725481D300009D57C /* Debug */,
+				F5F6BB6825481D300009D57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F6BB6925481D300009D57C /* Build configuration list for PBXNativeTarget "PaymentClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F6BB6A25481D300009D57C /* Debug */,
+				F5F6BB6B25481D300009D57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F6BB3125481D2F0009D57C /* Project object */;
+}
